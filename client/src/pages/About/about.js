@@ -1,4 +1,3 @@
-import mainLogo from "../../assets/mainLogo/fullLogo.png";
 import posterTile from "../../assets/posterTile/poster.jpeg";
 import Tile from "../../assets/posterTile/unite.png";
 import "./about.css";

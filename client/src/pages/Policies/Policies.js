@@ -3,24 +3,25 @@ import { useParams } from "react-router-dom";
 
 function Policies() {
   const { state } = useParams();
-  const [waiting, setWaiting] = useState();
-  const options = {
-    headers: {
-      token: "O+Pe+i+97g5AJTkg",
-    },
-  };
+  // const [waiting, setWaiting] = useState();
+  // const options = {
+  //   headers: {
+  //     token: "O+Pe+i+97g5AJTkg",
+  //   },
+  // };
   useEffect(() => {
-    fetch(
-      `https://api.abortionpolicyapi.com/v1/waiting_periods/states/${state}`,
-      options
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setWaiting(data);
-      });
+
+    // fetch(
+    //   `https://api.abortionpolicyapi.com/v1/waiting_periods/states/${state}`,
+    //   options
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+        console.log(state);
+    //     setWaiting(data);
+    //     console.log(waiting);
+    //   });
   }, []);
-  //   console.log(waiting);
   return (
     <div
       className="w-full mb-6 p-6 md:h-screen">
