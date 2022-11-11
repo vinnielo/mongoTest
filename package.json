@@ -15,10 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  },
-  "dependencies": {
-    "react-redux": "^8.0.4",
-    "redux": "^4.2.0",
-    "vercel": "^28.4.14"
   }
+
 }
