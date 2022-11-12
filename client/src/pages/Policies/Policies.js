@@ -9,6 +9,7 @@ function Policies() {
   //     token: "O+Pe+i+97g5AJTkg",
   //   },
   // };
+  console.log(stateCode);
   useEffect(() => {
 
     // fetch(
@@ -17,12 +18,11 @@ function Policies() {
     // )
     //   .then((res) => res.json())
     //   .then((data) => {
-        console.log(stateCode);
-    //     setWaiting(data);
-    //     console.log(waiting);
-    //   });
-  }, []);
-  return (
+      //     setWaiting(data);
+      //     console.log(waiting);
+      //   });
+    }, []);
+    return (
     <div
       className="w-full mb-6 p-6 md:h-screen">
 
