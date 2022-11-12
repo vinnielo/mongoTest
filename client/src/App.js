@@ -59,7 +59,7 @@ function App() {
                 <Route path="/orderHistory" element={<OrderHistory />} />
                 <Route path="/products/:id" element={<Detail />} />
                 <Route path="/success" element={<Success />} />
-                <Route path="/policies/:state" element={<Policies />} />
+                <Route path="/policies/:stateCode" element={<Policies />} />
               </Routes>
               <Footer />
           </Provider>

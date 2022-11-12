@@ -2,7 +2,7 @@ import { useEffect} from "react";
 import { useParams } from "react-router-dom";
 
 function Policies() {
-  const { state } = useParams();
+  const { stateCode } = useParams();
   // const [waiting, setWaiting] = useState();
   // const options = {
   //   headers: {
@@ -17,7 +17,7 @@ function Policies() {
     // )
     //   .then((res) => res.json())
     //   .then((data) => {
-        console.log(state);
+        console.log(stateCode);
     //     setWaiting(data);
     //     console.log(waiting);
     //   });
